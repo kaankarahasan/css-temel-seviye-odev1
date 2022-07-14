@@ -1,0 +1,170 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-attachment: scroll;
+}
+
+
+/*********** Menü Başlangıç ***********/
+
+.menu {
+  list-style: none;
+}
+
+.menu li{
+  display: inline;
+  margin: 10px;
+}
+
+/*********** Menü Bitiş ***********/
+
+
+/***************** Buton Başlangıç *****************/
+
+.button {
+
+  background-color: #E45826;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/***************** Buton Bitiş *****************/
+
+
+/* Ürünler Style Başlangıç */
+
+.bicycle {
+  color: #E45826;
+}
+
+.bicycle li {
+  color: #F0A500;
+  font-size: 18px;
+}
+
+.container h1 {
+  color: #1B1A17;
+  font-size: 64px;
+}
+
+.container h2 {
+  color: #E45826;
+  font-size: 32px;
+}
+
+/* Ürünler Style Bitiş */
+
+
+
+/**************** Video Üstü Yazılar Başlangıç ****************/
+
+#hero video {
+  height:100vh;
+  width:100%;
+  background-position: absolute;
+  z-index:10;
+  object-fit:cover;
+  background-attachment: scroll;
+}
+
+#hero .content {
+  background:rgba(0,0,0,0.5);
+  height:100%;
+  width:100%;
+  z-index:20;
+  position: absolute;
+  top:0;
+  left:0;
+  text-align:center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero .content h1 {
+  color:#FFF;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-size: 64px;
+}
+
+#hero .content h2 {
+  color:#FFF;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-size: 32px;
+}
+
+#hero .content p {
+  font-size:18px;
+  color:#FFF;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+
+#hero.content ol, ul, li {
+  color: #FFF;
+  list-style-position: inside
+}
+
+/**************** Video Üstü Yazılar Bitiş ****************/
+
+
+/******************* Sosyal Medya Başlangıç *******************/
+
+.fab {
+  padding: 8px;
+    font-size: 30px;
+    width: 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fab:hover {
+  opacity: 0.6;
+}
+
+.fa-facebook-f {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.icon-thumbnail {
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+
+/******************* Sosyal Medya Bitiş *******************/
+
